@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery.min.js"></script> 
+    <script src="js/leap-0.6.2.min.js"></script>
+    <script src="js/leap-plugins-0.1.4.js"></script> 
+ 	<script src="js/three.js"></script>
+    <script src="js/leap-plugins-0.1.6.1.js"></script>
+    <script src="js/leap.rigged-hand-0.1.4.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <div class="hover panel">
+      <div class="front card">
+          Music Player
+      </div>
+      <div class="back card">
+          Music Player
+      </div>
+    </div>
+
+    <audio id="audio" src="song1.mp3"></audio>
+     <div id="Name" style="margin-left:400px;width:600px;"> 
+      <marquee id="songName" behaviour="alternate" direction="right" style="margin-top:30px;"></marquee></div>
+      <img id="pause" src="pause.png" style="opacity:0.5;height:150px; width:150px; margin-top:250px; margin-left:300px;">
+      <img id="play" src="play_icon.png" style="opacity:0.5;height:150px; width:150px; margin-top:250px; margin-left:180px;">
+       <img id="next" src="next.png" style="opacity:0.5;height:150px; width:150px; margin-top:300px; margin-left:200px;">
+       <img src="volume.png" style="height:100px; width:100px;position:absolute; margin-top:500px; margin-left:-700px;">
+       <div id="vol" style="height:50px;position:absolute; margin-top:70px; margin-left:550px; background-color:blue;"></div>
+
+    <script src="js/main.js"></script> 
+    <script src="js/ang.js"></script> 
+   <script src="js/leap.js"></script> 
+    <script src="js/swipe.js"></script> 
+
+  </body>
+</html>
